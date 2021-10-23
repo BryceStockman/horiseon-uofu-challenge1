@@ -33,12 +33,10 @@ h3 {
 /* Utility Class Styling */
 .float-left {
   float: left;
-  margin-right: 25px;
 }
 
 .float-right {
   float: right;
-  margin-left: 25px;
 }
 
 .mb-10 {
@@ -51,6 +49,14 @@ h3 {
 
 .mb-32 {
   margin-bottom: 32px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pl-20 {
+  padding-left: 20px;
 }
 /* End Utility Class Styling */
 
@@ -107,15 +113,34 @@ h3 {
 }
 
 .section-services {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  background-color: #0072bb;
+  padding: 15px;
+  width: 996px;
   color: #ffffff;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 .section-services img {
-  max-height: 200px;
+    height: 250px;
+    width: 300px;
+}
+
+.section-services h2 {
+  font-size: 38px;
+}
+
+.section-services p {
+  font-size: 18px;
+  color: #d9dcd6;
+}
+
+.services {
+  background-color: #0072bb;
+  padding-top: 20px;
+  position: absolute;
+  width: 50%;
+  height: 250px;
+  margin-left: 300px;
 }
 
 .benefits {
