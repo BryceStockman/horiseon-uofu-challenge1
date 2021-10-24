@@ -20,14 +20,6 @@ a {
 p {
   font-size: 16px;
 }
-
-h2 {
-  font-size: 36px;
-}
-
-h3 {
-  text-align: center;
-}
 /* End Global Styling */
 
 /* Utility Class Styling */
@@ -57,6 +49,14 @@ h3 {
 
 .pl-20 {
   padding-left: 20px;
+}
+
+.ml-320 {
+  margin-left: 320px;
+}
+
+.mr-320 {
+  margin-right: 320px;
 }
 /* End Utility Class Styling */
 
@@ -107,47 +107,62 @@ h3 {
 /* End Hero Image Styling */
 
 .content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+  width: 100%;
+  display: inline;
+}
+
+.content h2 {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  color: #2a607c;
+  border-bottom: 4px solid #2a607c;
+  width: 50%;
+  margin: auto;
 }
 
 .section-services {
   padding: 15px;
-  width: 996px;
+  margin: auto;
+  width: 80%;
   color: #ffffff;
-  overflow: auto;
-  overflow-y: hidden;
 }
 
 .section-services img {
-    height: 250px;
-    width: 300px;
+  height: 250px;
+  width: 300px;
 }
 
-.section-services h2 {
+.section-services h3 {
   font-size: 38px;
 }
 
 .section-services p {
-  font-size: 18px;
+  font-size: 22px;
   color: #d9dcd6;
+  line-height: 1.5;
 }
 
 .services {
-  background-color: #0072bb;
-  padding-top: 20px;
-  position: absolute;
-  width: 50%;
+  text-align: left;
+  background-color: #2a607c;
+  padding: 20px 10px 0 10px;
+  width: 100%;
   height: 250px;
-  margin-left: 300px;
+}
+
+.services-right {
+  text-align: right;
+  background-color: #2a607c;
+  padding: 20px 10px 0 10px;
+  width: 100%;
+  height: 250px;
 }
 
 .benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
-  float: right;
   width: 20%;
   height: 100%;
   background-color: #2589bd;
