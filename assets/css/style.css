@@ -101,7 +101,7 @@ a {
   text-align: center;
   color: #2a607c;
   border-bottom: 4px solid #2a607c;
-  width: 50%;
+  width: 43%;
   margin: auto;
 }
 
@@ -153,31 +153,50 @@ a {
 }
 
 .benefits {
-  display: flex;
-  justify-content: center;
   text-align: center;
   clear: both;
   background-color: #d9dcd6;
+  color: #2a607c;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.benefits h2 {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  color: #2a607c;
+  border-bottom: 4px solid #2a607c;
+  width: 40%;
+  margin: auto;
 }
 
 .benefits article {
   width: 400px;
 }
 
+.benefits-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  background-color: #d9dcd6;
+}
+
 .benefits img {
   display: block;
   margin: auto;
+  margin-bottom: -40px;
   max-width: 150px;
-}
-
-.benefits {
-  color: #2a607c;
-  margin-bottom: 20px;
-  padding: 5px;
 }
 
 .benefit {
   align-content: center;
+}
+
+.benefit p {
+  font-style: italic;
 }
 
 .footer {
@@ -192,4 +211,28 @@ a {
 
 .footer h2 {
   font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header nav {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+  .content h2 , .benefits h2 {
+    font-size: 42px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .content p, .benefits-section p {
+    font-size: 16px;
+  }
 }
